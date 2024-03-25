@@ -1,0 +1,169 @@
+
+
+/* bagian Login */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+   }
+.login-container {
+    
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   
+   .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   
+   .login-container input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   }
+   
+   .login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   .login-container button:hover {
+    background-color: #0056b3;
+   }
+   
+/*dashboard*/
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+   }
+   
+   .dashboard-container h2 {
+    margin-bottom: 20px;
+   }
+   
+   .dashboard-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   .dashboard-container button:first-child {
+    background-color: #ff0000;
+    color: white;
+   }
+   
+   .dashboard-container button:first-child:hover {
+    background-color: #cc0000;
+   }
+   
+   .dashboard-container button:last-child {
+    background-color: #007bff;
+    color: white;
+   }
+   
+   .dashboard-container button:last-child:hover {
+    background-color: #0056b3;
+   }
+   
+/* Navbar.css */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+   }
+   
+   .logout {
+    background-color: #c50606; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+   }
+   
+   .logout:hover {
+    background-color: #830000;
+   }
+
+/* global.css */
+/* General styles for the body and inputs */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f0f0f0;
+}
+
+/* Styles for the centered form */
+.centered-form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+
+.form-container {
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ width: 300px;
+ max-width: 90%;
+}
+
+.form-container h2 {
+ margin-bottom: 20px;
+}
+
+.form-container input[type="text"] {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+}
+
+.form-container button {
+ background-color: #4CAF50; /* Green */
+ color: white;
+ padding: 10px 20px;
+ margin: 10px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ border-radius: 4px;
+}
+
+.form-container button:hover {
+ background-color: #45a049;
+}

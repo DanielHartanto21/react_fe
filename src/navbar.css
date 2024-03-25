@@ -1,0 +1,31 @@
+/* Navbar.css */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+   }
+   
+   .logout {
+    background-color: #c50606; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+   }
+   
+   .logout:hover {
+    background-color: #830000;
+   }
+   
